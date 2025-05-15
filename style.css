@@ -10,6 +10,17 @@ body {
     max-width: 100vw;
 }
 
+.preloader{
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 .Original-Link {
     width: 60px;
     height: 35px;
